@@ -1,0 +1,52 @@
+# Core dependencies
+python-dotenv>=1.0.0
+requests>=2.31.0
+aiohttp>=3.9.0
+pydantic>=2.7,<3
+pydantic-settings>=2.2,<3
+
+# LLM providers
+openai>=1.0.0
+anthropic>=0.5.0
+google-generativeai>=0.3.0
+
+# Web and data processing
+beautifulsoup4>=4.12.0
+google-search-results>=2.4.0
+lxml>=4.9.0
+xmltodict>=0.13.0
+
+# Text processing and NLP
+nltk>=3.8.0
+scikit-learn>=1.2.0
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Hashing and deduplication
+simhash>=1.9.0
+mmh3>=4.0.0
+
+# Async utilities
+aiofiles>=23.1.0
+asyncio-throttle>=0.1.0
+
+# Testing and development
+pytest>=7.3.1
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+black>=23.3.0
+isort>=5.12.0
+mypy>=1.0.0
+
+# Documentation
+sphinx>=6.1.3
+sphinx-rtd-theme>=1.2.0
+
+# Added from the code block
+fastapi
+uvicorn[standard]
+qdrant-client
+sentence-transformers
+pubmed_parser
+tenacity
