@@ -7,10 +7,8 @@ folder).
 """
 
 # ---------------------------------------------------------------------------
-# Ensure Pydantic v1 compatibility when running under Pydantic v2
+# Site customisations (path handling)
 # ---------------------------------------------------------------------------
-import os
-os.environ.setdefault("PYDANTIC_V2_COMPAT_MODE", "1")
 
 import sys
 import pathlib

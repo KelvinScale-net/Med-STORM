@@ -1,0 +1,135 @@
+/* Main page */
+.wy-nav-content {
+    max-width: 1200px !important;
+}
+
+/* Code blocks */
+.highlight {
+    background: #f8f8f8;
+    border-radius: 4px;
+    border: 1px solid #e1e4e5;
+    margin: 1em 0;
+    padding: 0.5em;
+}
+
+/* API documentation */
+.py.class, .py.function, .py.method, .py.attribute, .py.exception {
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #e1e4e5;
+}
+
+/* Method/function signatures */
+.sig {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-weight: bold;
+}
+
+/* Parameter descriptions */
+.field-list dt {
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.field-list dd {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+/* Admonitions */
+.admonition {
+    border-radius: 4px;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+}
+
+.admonition.note {
+    background-color: #e7f2fa;
+    border-left: 4px solid #4a90e2;
+}
+
+.admonition.warning {
+    background-color: #ffedcc;
+    border-left: 4px solid #f0b37e;
+}
+
+.admonition.danger {
+    background-color: #ffdddd;
+    border-left: 4px solid #f29f97;
+}
+
+/* Tables */
+.wy-table-responsive table td, .wy-table-responsive table th {
+    white-space: normal;
+    vertical-align: top;
+}
+
+/* Sidebar */
+.wy-menu-vertical a {
+    color: #b3b3b3;
+}
+
+.wy-menu-vertical a:hover {
+    background-color: #404040;
+    color: #fff;
+}
+
+/* Search */
+.wy-side-nav-search {
+    background-color: #343131;
+}
+
+.wy-side-nav-search input[type="text"] {
+    border-radius: 4px;
+    border: 1px solid #4d4d4d;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .wy-nav-content-wrap {
+        margin-left: 0;
+    }
+    
+    .wy-nav-side {
+        left: -300px;
+    }
+    
+    .wy-nav-side.shift {
+        left: 0;
+    }
+}
+
+/* Custom classes for evidence tiers */
+.evidence-tier-1 {
+    border-left: 4px solid #4CAF50;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.evidence-tier-2 {
+    border-left: 4px solid #FFC107;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.evidence-tier-3 {
+    border-left: 4px solid #F44336;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+/* Custom classes for confidence levels */
+.confidence-high {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.confidence-medium {
+    color: #FFC107;
+    font-weight: bold;
+}
+
+.confidence-low {
+    color: #F44336;
+    font-weight: bold;
+}

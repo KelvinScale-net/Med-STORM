@@ -1,0 +1,7 @@
+./tests/unit
+./tests/integration
+./docs/user_guide
+./docs/api
+./med_storm
+./reports
+./src/med_storm/services
